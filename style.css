@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+:root{
+    --main-color :  #10B981;
+    font-family:  'Klee One', cursive;
+    color: black;
+}
+body{
+    margin: 0;
+    background-color: #D1FAE5;
+}
+main{
+    margin: auto;
+    max-width: 600px;
+}
+.inputbox{
+    box-sizing: border-box;
+    width: 600px;
+    min-height: 20vh;
+    display: block;
+    padding: 0.5rem 0.5rem;
+    border-color:black;
+    border-style: solid;
+    border-width: 2px;
+    margin-bottom: 20px;
+}
+.outputbox{
+    box-sizing: border-box;
+    width: 600px;
+    height: 80px;
+    display: block;
+    padding : 0.5rem 0.5rem;
+    border-color:black;
+    border-style: solid;
+    border-width: 2px;
+    margin-bottom: 100px;
+}
+.heading{
+    background-color: var(--main-color);
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 2rem 2rem;
+    margin-block-start: 0;
+    font-family: var(--font-used);
+}
+#button-id{
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(27, 17, 117);
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    color: burlywood;
+}
+footer{
+    background-color: var(--main-color);
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+    font-family: var(--font-used);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+::placeholder{
+    color: black;
+    font-family: cursive;
+}
